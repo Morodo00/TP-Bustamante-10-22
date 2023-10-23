@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IALLTRAINER - Tu entrenamiento Virtual</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/4658dde39a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <header>
+      <div id="header">
+        <!-- Titulo del sitio -->
+        <div class="header_titulo"><a href="#header">IALLTRAINER</a></div>
+
+        <!-- Enlaces de encabezado -->
+        <div class="header_caja"><a href="#inicio"> INICIO</a></div>
+        <div class="header_caja"><a href="#main"> ENTRENAMIENTO</a></div>
+        <div class="header_caja"><a href="#registrarse">REGISTRARSE</a></div>
+      </div>
+    </header>
+  
+    <main>
+      <div id="content">
+        <!-- Inicio -->
+        <div id="inicio" class="caja">
+          <div class="inicio_">
+            <div class="inicio-a">
+              <!-- Imagen de inicio -->
+              <div class="carousel">
+                <div class="slides">
+                    <img src="/Imagen/imagen.jpg" alt="Imagen 1" />
+                </div>
+                <div class="slides">
+                    <img src="/Imagen/imagen1.jpg" alt="Imagen 2" />
+                </div>
+                <div class="slides">
+                    <img src="/Imagen/imagen2.jpg" alt="Imagen 3" />
+                </div>
+            </div> 
+            <div class="butondiv">
+            <button id="aBtn"><i class="fa-solid fa-chevron-left"></i></button>
+            <button id="bBtn"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+        
+
+
+
+        
+        <div class="inicio-b">
+              <h3>¡DESCUBRE EL FUTURO DEL FITNESS CON IALLTRAINER!</h3>
+              <p>
+                Somos tu compañero de entrenamiento virtual, impulsado por la
+                INTELIGENCIA ARTIFICIAL. Te ofrecemos una experiencia ÚNICA y
+                PERSONALIZADA para alcanzar tus METAS de FITNESS. ¡ÚNETE A
+                NOSOTROS y TRANSFORMA TU FORMA DE ENTRENAR!
+                <br />
+                SI QUIERES MÁS INFORMACIÓN CONTINUA HACIENDO CLICK
+              </p>
+
+              <button class="boton1" onclick="location.href='#main'">AQUI</button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Entrenamiento -->
+        <div id="main" class="caja">
+          <div class="main_">
+            <div class="main-a">
+              <h3>¡ALCANZA TUS METAS CON IALLTRAINER!</h3>
+              <p>¡REGÍSTRATE HOY PARA UNA TRANSFORMACIÓN TOTAL!
+                IALLTRAINER es tu socio de FITNESS INTELIGENTE. Al unirte, obtendrás acceso a ENTRENAMIENTOS PERSONALIZADOS, CORRECCIONES EN TIEMPO REAL y la COMUNIDAD DE ENTRENAMIENTO más increíble. Deja atrás los límites del entrenamiento convencional y ELEVA TU RENDIMIENTO. ¡Regístrate ahora y DESCUBRE TU MEJOR VERSIÓN!
+                <br/>
+              </p>
+
+              <button class="boton2" onclick="location.href='#registrarse'">REGISTRARSE</button>
+            </div>
+  
+            <div class="main-b">
+              <!-- Imagen de entrenamiento -->
+
+              <div class="carousel_">
+                <div class="slide">
+                    <img src="/Imagen/imagen3.jpg" alt="Imagen 4" />
+                </div>
+                <div class="slide">
+                    <img src="/Imagen/imagen4.jpg" alt="Imagen 5" />
+                </div>
+                <div class="slide">
+                    <img src="/Imagen/imagen5.jpg" alt="Imagen 6" />
+                </div>
+            </div>
+            <div class="butondiv">
+              <button id="aBt"><i class="fa-solid fa-chevron-left"></i></button>
+              <button id="bBt"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- Registro -->
+        <div class="login" id="registrarse">
+          <div class="registrarse contenido">
+            <h2>REGISTRO DE USUARIOS</h2><br><br>
+            <form id="formulario">
+              <label for="nombre">NOMBRE:</label>
+              <input type="text" id="nombre" name="nombre">
+              <br><br>
+              <label for="apellido">APELLIDO:</label>
+              <input type="text" id="apellido" name="apellido">
+              <br><br>
+              <label for="email">EMAIL:</label>
+              <input type="email" id="email" name="email">
+              <br><br>
+              <!-- Botón para registrar -->
+              <button type="button" id="enviar" class="boton3">Registrar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div id="footer" class="caja">
+        <div class="footers_c">
+          <div class="footers _titulo">
+            <br /><br />
+            <h1>IALLTRAINER</h1>
+          </div>
+
+          <div class="footers _a"> 
+            <br /><br /><br /><br /><br> <br /><br /><br />
+            <h3>Entrena de forma inteligente, alcanza tus objetivos.</h3>
+          </div>
+
+          <div class="footers _a">
+            <br /><br />
+            <h3>CONTACTO</h3><br>
+            <!-- Enlaces de contacto -->
+            <ul class="lista-cont">
+              <li><a href="www.linkedin.com/in/lautaro-bustamante-939967267" target="_blank"> <i class="fa-brands fa-linkedin"></i> LINKEDIN </a></li><br>
+              <li><a href="https://github.com/Morodo00" target="_blank"><i class="fa-brands fa-github"></i> GIHUB</a></li><br>
+              <li><a href="https://www.instagram.com/lautaro.bustamante.7/" target="_blank"><i class="fa-brands fa-instagram"></i> INSTAGRAM</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="derechos">
+          <p>&copy; 2023 IAlltrainer. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="boton.js"></script>
+    <script src="boton2.js"></script>
+
+  </body>
+</html>
